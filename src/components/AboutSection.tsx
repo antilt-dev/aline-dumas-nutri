@@ -4,7 +4,7 @@ import aboutImg from "@/assets/aline-about.jpg";
 
 const AboutSection = () => {
   return (
-    <section className="section-padding bg-accent" id="sobre">
+    <section className="section-padding bg-secondary" id="sobre">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <motion.div
@@ -35,19 +35,19 @@ const AboutSection = () => {
               Sobre mim
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Sou a Aline Dumas, nutricionista apaixonada pelo poder transformador da alimentação. Há mais de 14 anos ajudo pessoas a construírem uma relação saudável e prazerosa com a comida.
+              Sou a Aline Dumas, nutricionista apaixonada pelo poder transformador da alimentação. Minha abordagem é baseada em empatia e ciência, com especialização em Fisiologia Humana, Nutrição Clínica e Nutrição Funcional.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Minha missão é mostrar que comer saudável pode ser prazeroso. Nada de dietas malucas ou restrições absurdas — aqui a gente trabalha junto, no seu ritmo, respeitando sua rotina e seus gostos.
+              Acredito que comer bem deve ser um prazer, não uma punição. Cada plano que crio é único — pensado para a sua rotina, seus gostos e seus objetivos.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Cada plano que eu crio é único, pensado especialmente para você. Porque cada corpo é diferente, e cada história merece atenção individual.
+              Minha missão é te ajudar a construir uma relação saudável e duradoura com a comida, sem restrições extremas e com resultados reais.
             </p>
             <a
-              href="https://instagram.com/alinedumas.nutri"
+              href="https://www.instagram.com/alinedumasnutri/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 border-2 border-primary text-foreground hover:bg-primary hover:text-primary-foreground font-medium px-6 py-3 rounded-lg transition-colors duration-200"
+              className="inline-flex items-center gap-2 border-2 border-rose text-foreground hover:bg-rose hover:text-primary-foreground font-medium px-6 py-3 rounded-lg transition-colors duration-200"
             >
               <Instagram className="w-5 h-5" />
               Me acompanhe no Instagram

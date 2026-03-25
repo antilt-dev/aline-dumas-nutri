@@ -1,27 +1,27 @@
 import { motion } from "framer-motion";
-import { Apple, Dumbbell, Users } from "lucide-react";
+import { Leaf, FlaskConical, HeartPulse } from "lucide-react";
 
 const services = [
   {
-    icon: Apple,
-    title: "Emagrecimento Definitivo",
-    description: "Plano personalizado para perda de peso saudável e sustentável, sem efeito sanfona.",
+    icon: Leaf,
+    title: "Reeducação Alimentar",
+    description: "Construa hábitos saudáveis e sustentáveis, sem dietas restritivas ou efeito sanfona.",
   },
   {
-    icon: Dumbbell,
-    title: "Nutrição Esportiva",
-    description: "Performance e recuperação otimizadas com alimentação estratégica para atletas.",
+    icon: FlaskConical,
+    title: "Nutrição Funcional",
+    description: "Tratamento individualizado focado na raiz dos desequilíbrios do seu organismo.",
   },
   {
-    icon: Users,
-    title: "Reeducação Alimentar para Famílias",
-    description: "Toda a família comendo melhor, com praticidade e sabor no dia a dia.",
+    icon: HeartPulse,
+    title: "Saúde Digestiva",
+    description: "Melhore seu bem-estar intestinal com orientação especializada e personalizada.",
   },
 ];
 
 const ServicesSection = () => {
   return (
-    <section className="section-padding bg-accent" id="servicos">
+    <section className="section-padding bg-background" id="servicos">
       <div className="container mx-auto max-w-5xl">
         <motion.h2
           className="text-2xl md:text-3xl font-bold text-center text-foreground mb-12"
