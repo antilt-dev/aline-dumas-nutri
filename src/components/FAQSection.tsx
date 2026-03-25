@@ -27,7 +27,7 @@ const faqs = [
 
 const FAQSection = () => {
   return (
-    <section className="section-padding bg-accent" id="faq">
+    <section className="section-padding bg-background" id="faq">
       <div className="container mx-auto max-w-2xl">
         <motion.h2
           className="text-2xl md:text-3xl font-bold text-center text-foreground mb-10"

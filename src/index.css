@@ -4,38 +4,40 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 0 100% 99%;
     --foreground: 0 0% 29%;
 
-    --card: 340 100% 97%;
+    --card: 0 100% 99%;
     --card-foreground: 0 0% 29%;
 
-    --popover: 0 0% 100%;
+    --popover: 0 100% 99%;
     --popover-foreground: 0 0% 29%;
 
-    --primary: 0 27% 74%;
+    --primary: 158 10% 58%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 0 25% 67%;
+    --primary-hover: 158 12% 50%;
 
-    --secondary: 340 33% 93%;
+    --secondary: 0 48% 89%;
     --secondary-foreground: 0 0% 29%;
 
-    --muted: 340 33% 93%;
+    --muted: 0 48% 89%;
     --muted-foreground: 0 0% 46%;
 
-    --accent: 340 100% 97%;
+    --accent: 0 48% 89%;
     --accent-foreground: 0 0% 29%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 340 30% 88%;
-    --input: 340 30% 88%;
-    --ring: 0 27% 74%;
+    --border: 0 24% 88%;
+    --input: 0 24% 88%;
+    --ring: 158 10% 58%;
 
     --radius: 0.75rem;
 
     --whatsapp: 142 70% 49%;
+
+    --rose: 0 27% 81%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -46,8 +48,8 @@
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
 
-    --font-heading: 'Lora', serif;
-    --font-body: 'Roboto', sans-serif;
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Montserrat', sans-serif;
   }
 }
 

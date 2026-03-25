@@ -4,7 +4,7 @@ import heroImg from "@/assets/aline-hero.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="section-padding bg-accent">
+    <section className="section-padding bg-background">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
           {/* Left */}
@@ -15,19 +15,19 @@ const HeroSection = () => {
             transition={{ duration: 0.7 }}
           >
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-foreground mb-6">
-              Recupere sua autoestima e saúde através da comida.
+              Sua jornada para uma vida mais saudável começa aqui.
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-lg mx-auto lg:mx-0">
-              Nutricionista em Maringá | Planos 100% personalizados sem dietas restritivas. CRN 9-XXXX.
+              Nutricionista em Maringá · Consultorias personalizadas, sem dietas restritivas.
             </p>
             <a
               href="https://wa.me/5544991475583"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-primary hover:bg-primary-hover text-primary-foreground font-medium text-lg px-8 py-4 rounded-lg transition-colors duration-200 shadow-lg shadow-primary/20"
+              className="inline-flex items-center gap-3 bg-primary hover:bg-primary-hover text-primary-foreground font-medium text-lg px-8 py-4 rounded-lg transition-opacity duration-200 hover:opacity-90 shadow-lg shadow-primary/20"
             >
               <MessageCircle className="w-5 h-5" />
-              Quero Agendar Minha Consulta
+              Agendar Consulta
             </a>
           </motion.div>
 
